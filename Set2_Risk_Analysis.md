@@ -38,6 +38,8 @@
 
 ### Annotated original (flaw → correction)
 
+![Annotated ConnectSphere User Flow (Set 2)](images/set2-annotated.png)
+
 | Marker | Location on the original diagram | Correction made | Why |
 | --- | --- | --- | --- |
 | **①** | "HTTP (Unencrypted)" path from the User's Browser | **HTTPS / TLS 1.2+** end to end, HSTS, HTTP→HTTPS redirect | Protects profile data and ensures data-in-transit confidentiality. |

@@ -37,6 +37,8 @@
 
 ### Annotated original (flaw → correction)
 
+![Annotated ConnectSphere User Flow (Set 1)](images/set1-annotated.png)
+
 | Marker | Location on the original diagram | Correction made | Why |
 | --- | --- | --- | --- |
 | **①** | Browser → Web Server, "HTTP (Unencrypted)" | Replace with **HTTPS / TLS 1.2+**, HSTS, HTTP→HTTPS redirect, TLS to the backend | Protects PII and ensures data-in-transit confidentiality. |
